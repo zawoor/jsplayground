@@ -1,7 +1,7 @@
 {
-  "name": "LongestCommonSubSequence",
+  "name": "JSPlayground",
   "version": "1.0.0",
-  "description": "Longest Common SubSequence",
+  "description": "Coding Challanges that I've taken in spare time",
   "scripts": {
     "test": "mocha './test/**/*.spec.js'"
   },
