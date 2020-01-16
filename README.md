@@ -21,5 +21,4 @@ For example, there are n=7 socks with colors ar=[1, 2, 1, 2, 1, 3, 2]. There is 
 
 # Instructions:
 
-npm install to install all packages
-npm test to run tests
+`npm install` to install all packages, `npm test` to run tests
