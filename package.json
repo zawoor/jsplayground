@@ -1,0 +1,15 @@
+{
+  "name": "LongestCommonSubSequence",
+  "version": "1.0.0",
+  "description": "Longest Common SubSequence",
+  "scripts": {
+    "test": "mocha './test/**/*.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.2"
+  }
+}
