@@ -3,7 +3,6 @@ var chai = require("chai");
 var chaiAsPromised = require("chai-as-promised");
 chai.use(chaiAsPromised);
 chai.should();
-console.log(sockMerchant);
 describe('Sock Merchant', function () {
     it('Run Tests', function () {
 
