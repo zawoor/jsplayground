@@ -2,6 +2,15 @@
 
 Here is a set of coding challenges that I took, on a day when I was bored, sources vary.
 
+## Extra Long Factorials
+
+Challange found on `hackerrank.com`
+
+The factorial of the integer n, written n!, is defined as:
+n! = n x (n - 1) x (n - 2) x ... x 3 x 2 x 1
+
+Calculate and print the factorial of a given integer.
+
 ## Climbing the Leaderboard (Medium)
 
 Challange found on `hackerrank.com`
