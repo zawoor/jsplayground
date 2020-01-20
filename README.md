@@ -2,7 +2,7 @@
 
 Here is a set of coding challenges that I took, on a day when I was bored, sources vary.
 
-## 1. Climbing the Leaderboard
+## Climbing the Leaderboard (Medium)
 
 Challange found on `hackerrank.com`
 
@@ -12,13 +12,13 @@ Alice is playing an arcade game and wants to climb to the top of the leaderboard
 
 For example, the four players on the leaderboard have high scores of 100, 90, 90 and 80. Those players will have ranks 1, 2, 2, and 3, respectively. If Alice's scores are 70, 80 and 105, her rankings after each game are 4th, 3rd and 1st.
 
-## 2. Find longest common subsequence
+## Find longest common subsequence (Easy)
 
 Found on Youtube: `youtube.comwatch?v=10WnvBk9sZc`
 
 Write a function that takes two strings, s1 and s2 and returns the longest common subsequence of s1 and s2.
 
-## 3. Sock Merchant
+## Sock Merchant (Easy)
 
 Challange found on `hackerrank.com`
 
@@ -26,7 +26,7 @@ John works at a clothing store. He has a large pile of socks that he must pair b
 
 For example, there are n=7 socks with colors ar=[1, 2, 1, 2, 1, 3, 2]. There is one pair of color 1 and one of color 2. There are three odd socks left, one of each color. The number of pairs is 2.
 
-## 4. FizzBuzz
+## FizzBuzz (Easy)
 
 Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
