@@ -30,9 +30,7 @@ describe('Extra Long Factorials', function() {
         extraLongFactorials.add('95379736678237146739572634997355132068513997507264512000000000', '1907594733564742934791452699947102641370279950145290240000000000').should.be.equal('2002974470242980081531025334944457773438793947652554752000000000');
 
         inputArray.forEach(test => {
-            console.time('factorial');
-            extraLongFactorials.run(test.number).should.be.equal(test.result);
-            console.timeEnd('factorial');
+            extraLongFactorials.runSingle(test.number).should.be.equal(test.result);
         });              
 
     });
