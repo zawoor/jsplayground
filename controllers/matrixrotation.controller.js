@@ -1,22 +1,25 @@
 function MatrixRotation() {
     function run(n, r) {
-        let layers = 1,
+        let layers = Math.min(n[0].length, n.length) / 2,
             matrix = n;
-        if (matrix.length % 2 == 0) {
-            layers = matrix[0].length / 2;
-        } else {
-            layers = matrix.length / 2;
-        }
 
-        for (rotation = 0; rotation < r; rotation++) {
-            for (layer = 0; layer < layers; layer++) {
-                matrix = this.rotateLayer(matrix, layer);
-            }
+        for (let layer = 0; layer < layers; layer++) {
+//            console.time('layer:' + layer);
+            matrix = this.rotateLayer(matrix, layer, r);
+//            console.timeEnd('layer:' + layer);
         }
+       
+        /*
+        let print = matrix;
+        print.forEach((el, i) => {
+            print[i] = el.join(' ');
+        });
+        console.log(print.join("\n"));
+        */
         return matrix;
     }
 
-    function rotateLayer(matrix, layer) {
+    function rotateLayer(matrix, layer, r) {
         let startX = 0 + layer;
         let startY = 0 + layer;
         let maxX = matrix[0].length - 1 - layer;
@@ -40,11 +43,14 @@ function MatrixRotation() {
             chain.push(matrix[i][startX]);
         }
 
+        let element = [],
+            rotationDiff = r % chain.length;
+        for (let rotation = 0; rotation < rotationDiff; rotation++) {
+            element = chain.shift();
+            chain.push(element);
+        }
 
-        // rotate chain
-        let element = chain.shift();
-        chain.push(element);
-
+        //up
         for (let i = startX; i <= maxX; i++) {
             matrix[startY][i] = chain.shift();
         }
@@ -62,6 +68,7 @@ function MatrixRotation() {
         }
         return matrix;
     }
+
 
     return {
         run,
