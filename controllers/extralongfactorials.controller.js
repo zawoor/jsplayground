@@ -15,7 +15,6 @@ function extraLongFactorialsController() {
         return result;
     }
 
-
     function add(a, b) {
         let first = a.padStart(Math.max(a.length, b.length), "0").split("");
         let second = b.padStart(Math.max(a.length, b.length), "0").split("");

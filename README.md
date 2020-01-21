@@ -2,7 +2,13 @@
 
 Here is a set of coding challenges that I took, on a day when I was bored, sources vary.
 
-## Extra Long Factorials
+## Matrix Layer Rotation (Hard)
+
+Challange found on `hackerrank.com`
+
+You are given a 2D matrix, a, of dimension MxN and a positive integer R. You have to rotate the matrix R times and print the resultant matrix. Rotation should be in anti-clockwise direction.
+
+## Extra Long Factorials (Medium)
 
 Challange found on `hackerrank.com`
 
